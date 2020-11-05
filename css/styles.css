@@ -30,8 +30,6 @@ body{
     justify-content: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    /* padding-left: 452px;
-    padding-right: 452px; */
 }
 .title-h1{
     text-align: center;
@@ -266,8 +264,6 @@ a{
 }
 .span,
 .span1{
-    /* width: 231px;
-    height: 21px; */
     text-decoration: none;
     font-family: var(--main-font);
     font-style: normal;
@@ -294,8 +290,7 @@ a{
     display: flex;
     flex-direction: row;
     background: var(--main-color);
-    padding-left: 215px;
-    padding-right: 165px;
+    justify-content: center;
 }
 .nav{
     display: flex;
@@ -338,12 +333,13 @@ a{
     padding-top: 50px ;
 }
 .content{
+    display: flex;
     background-color: var(--main-color);
-    padding-right: 215px;
-    padding-left: 215px;
+    justify-content: center;
     padding-bottom: 94px;
 }
 .content-section{
+    max-width: 1170px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -355,15 +351,20 @@ a{
 .inform{
     padding-top: 94px;
     padding-bottom: 94px;
-    padding-left: 215px;
-    padding-right: 215px;
+    display: flex;
+    justify-content: center;
 }
 .paragraph{
+    align-items: center;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
 }
+.sub-para:nth-child(-n+3){
+    margin-right: 30px;
+}
 .sub-para{
+    width: 270px;
     text-align: left;
 }
 .title-h3{
@@ -373,16 +374,17 @@ a{
 
 /* Чем мы занимаемся */
 .deals{
-    padding-left: 215px;
-    padding-right: 215px;
     padding-bottom: 94px;
 }
 .our-deals{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     list-style-type: none;
     padding-top: 50px;
+}
+.images:nth-child(-n+2){
+    margin-right: 30px;
 }
 
 /* НАША КОМАНДА */
@@ -394,11 +396,9 @@ a{
 .our-team{
     padding-top: 50px;
     padding-bottom: 94px;
-    padding-left: 215px;
-    padding-right: 215px;
     display: flex;
     list-style-type: none;
-    justify-content: space-between;
+    justify-content: center;
 }
 .team-member{
     display: flex;
@@ -410,8 +410,7 @@ a{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-.team-member:last-child{
-    margin-right: 0px;
+.team-member:nth-child(-n+3){
+    margin-right: 30px;
 }
-
 
