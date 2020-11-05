@@ -118,15 +118,21 @@ body{
     margin-top: 10px;
 }
 .footer-container{
-    padding-left: 215px;
+    /* padding-left: 215px; */
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+    align-content: center ;
 }
 .footer{
     background: var(--footer-color);
     padding-bottom: 60px;
     padding-top: 60px;
     display: flex;
+    justify-content: center;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center; */
 }
 footer p:nth-child(n+2){
     margin-top: 9px;
