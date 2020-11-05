@@ -30,12 +30,12 @@ body{
     justify-content: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    padding-left: 452px;
-    padding-right: 452px;
+    /* padding-left: 452px;
+    padding-right: 452px; */
 }
 .title-h1{
     text-align: center;
-    /* width: 696px; */
+    width: 696px;
     /* height: 120px; */
     font-weight: 900;
     font-size: 44px;
