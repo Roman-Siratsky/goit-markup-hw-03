@@ -15,8 +15,6 @@
   --black-color: #212121;
   --button-color: #F5F4FA;
 }
-
-/* Стили к странице Студия */
 body{
     font-family: var(--main-font);
     text-decoration: none;
@@ -34,7 +32,6 @@ body{
 .title-h1{
     text-align: center;
     width: 696px;
-    /* height: 120px; */
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -88,7 +85,6 @@ body{
     color: var(--black-color);
 
 }
-
 .h22{
     height: 42px;
     font-weight: 700;
@@ -118,20 +114,17 @@ body{
     margin-top: 10px;
 }
 .footer-container{
-    /* padding-left: 215px; */
+
     width: 1170px;
     display: flex;
     flex-direction: column;
     align-content: center ;
 }
-.footer{
+.footer-section{
     background: var(--footer-color);
     padding-bottom: 60px;
     padding-top: 60px;
-    display: flex;
-    justify-content: center;
     /* display: flex;
-    flex-direction: column;
     justify-content: center; */
 }
 footer p:nth-child(n+2){
@@ -257,7 +250,6 @@ a{
     letter-spacing: 0.03em;
     text-align: left;
 }
-
 .blank{
     background-color: var(--main-color);
     border: 1px solid #EEEEEE;
@@ -287,16 +279,10 @@ a{
     color: var(--main-color);
     text-decoration: none;
 }
-
-
-/* Строение Шапки */
-.flex-container{
+.header-section{
     border: 1px solid #ECECEC;
     height: 80px;
-    display: flex;
-    flex-direction: row;
     background: var(--main-color);
-    justify-content: center;
 }
 .nav{
     display: flex;
@@ -323,20 +309,17 @@ a{
 .flex-item{
     display: flex;
 }
-
-
-/* Кнопки фильтра (Portfolio) */
 .buttons{
     display: flex;
     justify-content: center;
     list-style-type: none;
 }
 .buttons-section{
-    height: 182px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 50px ;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .content{
     display: flex;
@@ -345,20 +328,17 @@ a{
     padding-bottom: 94px;
 }
 .content-section{
-    max-width: 1170px;
+    /* max-width: 1170px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 
-/* Информационная панель (Студия) */
 
-.inform{
+.inform-section{
     padding-top: 94px;
     padding-bottom: 94px;
-    display: flex;
-    justify-content: center;
 }
 .paragraph{
     align-items: center;
@@ -378,8 +358,8 @@ a{
 }
 
 
-/* Чем мы занимаемся */
-.deals{
+
+.deals-section{
     padding-bottom: 94px;
 }
 .our-deals{
@@ -393,15 +373,14 @@ a{
     margin-right: 30px;
 }
 
-/* НАША КОМАНДА */
 
-.team{
+.team-section{
     background: var(--button-color);
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 .our-team{
     padding-top: 50px;
-    padding-bottom: 94px;
     display: flex;
     list-style-type: none;
     justify-content: center;
@@ -419,4 +398,46 @@ a{
 .team-member:nth-child(-n+3){
     margin-right: 30px;
 }
+
+.header-section,
+.intro-section,
+.inform-section,
+.deals-section,
+.team-section,
+.content-sect,
+.buttons-section,
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fl-container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.header{
+    flex-direction: row;
+}
+.content-sect{
+    padding-bottom: 94px;
+}
+/* .port{ */
+    /* max-width: 1170px; */
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+/* .content-section{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+} */
+
 
